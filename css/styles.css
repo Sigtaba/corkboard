@@ -1,0 +1,40 @@
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/corkboard.jpg);
+  position:relative;
+}
+
+
+
+.frame {
+  width: 800px;
+  position: relative;
+  background-color: red;
+}
+
+.image {
+  position: absolute;
+  background-color: blue;
+  top: 80px;
+  left: 80px;
+}
+
+.polaroid {
+  position: absolute;
+}
+
+.polaroid img {
+  width: 800px;
+}
+
+.pin {
+  position: absolute;
+}
